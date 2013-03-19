@@ -1,0 +1,154 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+}
+
+div, ul, li, h1, h2, h3, p{
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+h1,h2,h3{
+	font-weight:600;
+}
+
+h1{
+	font-size:2em;
+}
+
+a {
+  color: #00B7FF;
+}
+
+input{
+	width:20%;
+	padding:5px;
+}
+
+.header{
+	position: fixed;
+	width:100%;
+	top:0;
+	z-index: 2;
+}
+
+.body-wrapper{
+	margin:0 auto;
+	max-width:900px;
+	margin:120px 20px 20px 20px;
+}
+
+.body-wrapper h1{
+	text-align: center;
+}
+
+div.month h2{
+	text-align:center;
+	font-weight:400;
+	font-style: italic;
+	line-height:1;
+	margin-top:8px;
+}
+
+.month span{
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.expense-items{
+	display:block;
+	width:96%;
+	float:left;
+}
+
+.expense-items h2{
+	text-align: center;
+	width:100%;
+	padding:6px 0;
+}
+
+.first-allot{
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+}
+
+.first-allot h2:last-child{
+	margin:0 0 20px 0;
+	color:red;
+}
+
+.list li{
+	background-color:#ccc;
+	position: relative;
+	padding:10px;
+	min-height:60px;
+	margin-bottom:10px;
+}
+
+.editable{
+	cursor:pointer;
+}
+
+.left-list{
+	margin-right:3%;
+}
+.right-list{
+	margin-left:3%;
+}
+
+.list li h3{
+	padding:5px 0;
+}
+
+.list li span{
+	font-weight:600;
+	font-size:1.24em;
+}
+.expense-item{
+	width:75%;
+}
+.check{
+	width:25%;
+	height:100%;
+	position: relative;
+	float:right;
+	display: block;
+}
+
+.check label,
+.check input{
+	float:right;
+}
+
+.check label{
+	margin-right:4px;
+	margin-bottom:;
+}
+
+.check input{
+	margin-top:5px;
+	margin-right:16px;
+}
+
+.paidnotpaid{
+	float:left;
+	height:60px;
+	width:60px;
+	display: block;
+	background-color: red;
+	margin-right:10px;
+}
+
+.input[type=checkbox]{
+	float:right;
+}
+
+@media screen and (max-width: 500px){
+	.expense-items{
+		width:100%;
+	}
+	.left-list,
+	.right-list{
+		margin:0 ;
+	}
+}
