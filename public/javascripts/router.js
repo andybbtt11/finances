@@ -6,10 +6,11 @@ var AppRouter = Backbone.Router.extend({
 	},
 
 	test: function(){
-		console.log('test');
+		alert('URL needs a month, try appending #march to the url');
 	},
 
 	month: function(){
+		var expenseListView = new ExpenseListView;
 		var monthView = new MonthView;
 	}
 

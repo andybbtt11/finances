@@ -5,9 +5,4 @@ $(document).ready(function(){
         Backbone.history.start();
     });
 
-	_.delay(function(){var addAmountsView = new AddAmountsView;}, 100);	
-	var expenseListView = new ExpenseListView;
-
-
-
 });

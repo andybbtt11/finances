@@ -34,7 +34,6 @@ input{
 
 .body-wrapper{
 	margin:0 auto;
-	max-width:900px;
 	margin:120px 20px 20px 20px;
 }
 
@@ -57,7 +56,7 @@ div.month h2{
 
 .expense-items{
 	display:block;
-	width:96%;
+	width:100%;
 	float:left;
 }
 
@@ -89,12 +88,6 @@ div.month h2{
 	cursor:pointer;
 }
 
-.left-list{
-	margin-right:3%;
-}
-.right-list{
-	margin-left:3%;
-}
 
 .list li h3{
 	padding:5px 0;

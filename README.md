@@ -1,6 +1,8 @@
 finances
 ========
 
+Keeping demo here: http://www.babbitt.is/finances
+
 A simple webapp to keep track of monthly expenses.  
 
 So far it's a very barebones Backbone.js UI.  I will be hooking it up with Node.js and Mongodb as soon as I figure out how. 
