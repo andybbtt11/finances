@@ -32,7 +32,7 @@ app.get('/', function(){
 
 app.get('/expenses', routes.expenses.all);
 app.get('/expenses/:id', routes.expenses.one);
-
+app.post('/expenses', routes.expenses.create);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));

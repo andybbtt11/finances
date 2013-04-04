@@ -16,3 +16,8 @@ exports.expenses.one = function(req, res){
 		res.json(expense);
 	});
 };
+
+exports.expenses.create = function(req, res){
+	res.json(req.body);
+	db.expenses.save(req.body);
+};
