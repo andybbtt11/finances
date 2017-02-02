@@ -1,7 +1,7 @@
 finances
 ========
 
-Keeping demo here: http://www.babbitt.is/finances
+Keeping demo here: http://www.babbitt.io/finances
 
 A simple webapp to keep track of monthly expenses.  
 
